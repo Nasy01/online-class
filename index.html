@@ -3,28 +3,19 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator</title>
+    <title>Black_jack</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-   <div class="container">
-       
-       <div class="inp-feild">
-           <input type="text" class="field" id="first-field">
-           <input type="text" class="field" id="second-field">
-       </div>
-       
-       <p id="output"></p>
-       
-       <div class="cal-Btn">
-       <button id="sum-Btn">ADD</button>
-       <button id="sub-Btn">SUBTRACT</button>
-       <button id="mul-Btn">MULTIPLY</button>
-       <button id="div-Btn">DIVIDE</button>
-   </div>
-   </div>
+       <h1>Black Jack</h1>
+       <p id="message">You want to play a round?</p>
+       <p id="cards-el">Cards:</p>
+       <p id="p-value">Sum:</p>
+       <button id="start-btn" onclick="startGame()">Start Game</button>
+       <button id="request-btn" onclick="drawCard()">New Card</button>
+       <p id="player-el">Player's Name:</p>
    
-   <script src="script.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
